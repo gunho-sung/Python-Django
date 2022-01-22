@@ -8,3 +8,12 @@ if input_pass == origin_pass: #조건 A
     #조건 A 참
     print("로그인 성공!")
     print("반갑습니다.")
+elif input_pass == "": # 조건 B
+    # 조건 A 거짓, 조건 B 참
+    print("아무것도 입력하지 않았습니다.")
+else: 
+    # 조건 A 거짓, 조건 B 거짓
+    print("로그인 실패!")
+    print("비밀번호를 확인하세요.")
+
+# 들여쓰기 if elif else : 만 주의하면 크게 어렵지 않다.
